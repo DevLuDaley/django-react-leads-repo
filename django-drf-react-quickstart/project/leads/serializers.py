@@ -5,6 +5,6 @@ from leads.models import Lead
 class LeadSerializer(serializers.ModelSerializer):
     class Meta:
         model = Lead
-        fields = ('id', 'name', 'email', 'message')  # mapping specifi fields
+        fields = ('id', 'name', 'email', 'message')  # mapping specific fields
         # mapping all fields
         # #fields = '__all__'
