@@ -1,4 +1,4 @@
-# Lead App
+# Leads App
 
 =====
 Leads App
