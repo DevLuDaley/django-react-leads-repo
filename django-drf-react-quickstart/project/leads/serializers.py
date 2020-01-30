@@ -8,3 +8,4 @@ class LeadSerializer(serializers.ModelSerializer):
         fields = ('id', 'name', 'email', 'message')  # mapping specific fields
         # mapping all fields
         # #fields = '__all__'
+# python manage.py loaddata leads
